@@ -24,8 +24,28 @@ The dataset used for this project contains credit card transactions made by Euro
 - Evaluated both models using the Area Under the Precision-Recall Curve (AUPRC) as the primary metric, considering the class imbalance.
 
 ### Results
-- The logistic regression model achieved an AUPRC of approximately X.XX on the test dataset, indicating its effectiveness in detecting fraudulent transactions, considering the class imbalance.
-- The Random Forest model achieved an AUPRC of approximately Y.YY on the test dataset, showing its strong performance in identifying fraudulent transactions.
+Here are the performance metrics for the models on the test dataset:
+
+**Logistic Regression Metrics:**
+- Precision: 0.9570
+- Recall: 0.9082
+- F1-Score: 0.9319
+- AUPRC (Area Under the Precision-Recall Curve): 0.9148
+- Confusion Matrix:
+  [[95  4]
+  [13 85]]
+- ROC-AUC: 0.9339
+
+ **Random Forest Metrics:**
+- Precision: 0.9551
+- Recall: 0.8673
+- F1-Score: 0.9091
+- AUPRC (Area Under the Precision-Recall Curve): 0.8944
+- Confusion Matrix: 
+  [[95 4]
+  [13 85]]
+- ROC-AUC: 0.9135
+
 
 ## Tech Stack
 - Python
